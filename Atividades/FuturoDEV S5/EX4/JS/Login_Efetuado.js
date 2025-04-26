@@ -21,7 +21,7 @@ formulario.addEventListener('submit', (e) => {
         mensagem.innerHTML = `Login realizado com sucesso!`;
         mensagem.style.color = "green";
         setTimeout(() => {
-            window.location.href = "Login_Efetuado.html"; // Redireciona após 1 segundo
+            window.location.href = "Setor_Comercial.html"; // Redireciona após 1 segundo
         }, 1000);
     } else {
         mensagem.innerHTML = `Login ou senha incorretos.`;
