@@ -1,5 +1,3 @@
-const formulario = document.getElementById("formulario");
-
 const dadosDosSetores = {
     comercial: { usuario: "CMCL12", senha: "Com&c1@l" },
     rh: { usuario: "98HR", senha: "RH!@2025" },
