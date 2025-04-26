@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.cabecalho{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.esq{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.centr{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    word-break: break-word;
+}
+
+.dir{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.rod{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+div div{
+    border: 1px solid black;
+}
