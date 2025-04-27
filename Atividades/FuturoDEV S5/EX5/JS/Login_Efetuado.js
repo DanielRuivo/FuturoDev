@@ -12,23 +12,45 @@ formulario.addEventListener('submit', (e) => {
     const senha = document.getElementById("Senha").value;
     const mensagem = document.getElementById("mensagem");
 
-    if (dadosDosSetores[setorSelecionado]) {
-        mensagem.textContent = `Selecione um setor válido.`;
-        mensagem.style.color = "red";
-        return;
-    }
-
-    const dados = dadosDosSetores[setorSelecionado];
-
-    // Verificando se o login é válido
-    if (usuario === dados.usuario && senha === dados.senha) {
-        mensagem.innerHTML = `Login realizado com sucesso!`;
-        mensagem.style.color = "green";
-        setTimeout(() => {
-            window.location.href = "Setor_Comercial.html"; // Redireciona após 1 segundo
-        }, 1000);
-    } else {
-        mensagem.innerHTML = `Login ou senha incorretos.`;
-        mensagem.style.color = "red";
+    switch (setorSelecionado){
+        case "comercial":
+            if (usuario === dadosDosSetores.comercial.usuario && senha === dadosDosSetores.comercial.senha) {
+                mensagem.innerHTML = `Login realizado com sucesso!`;
+                mensagem.style.color = "green";
+                setTimeout(() => {
+                    window.location.href = "Setor_Comercial.html"; // Redireciona após 1 segundo
+                }, 1000);
+            } else {
+                mensagem.innerHTML = `Login ou senha incorretos.`;
+                mensagem.style.color = "red";
+            }
+            break;
+        case "rh":
+            if (usuario === dadosDosSetores.rh.usuario && senha === dadosDosSetores.rh.senha) {
+                mensagem.innerHTML = `Login realizado com sucesso!`;
+                mensagem.style.color = "green";
+                setTimeout(() => {
+                    window.location.href = "Setor_RH.html"; // Redireciona após 1 segundo
+                }, 1000);
+            } else {
+                mensagem.innerHTML = `Login ou senha incorretos.`;
+                mensagem.style.color = "red";
+            }
+            break;
+        case "ti":
+            if (usuario === dadosDosSetores.ti.usuario && senha === dadosDosSetores.ti.senha) {
+                mensagem.innerHTML = `Login realizado com sucesso!`;
+                mensagem.style.color = "green";
+                setTimeout(() => {
+                    window.location.href = "Setor_TI.html"; // Redireciona após 1 segundo
+                }, 1000);
+            } else {
+                mensagem.innerHTML = `Login ou senha incorretos.`;
+                mensagem.style.color = "red";
+            }
+            break;
+        default:
+            mensagem.textContent = `Selecione um setor válido.`;
+            mensagem.style.color = "red";
     }
 });
