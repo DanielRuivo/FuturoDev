@@ -12,6 +12,12 @@ formulario.addEventListener('submit', (e) => {
     const senha = document.getElementById("Senha").value;
     const mensagem = document.getElementById("mensagem");
 
+    if (dadosDosSetores[setorSelecionado]) {
+        mensagem.textContent = `Selecione um setor válido.`;
+        mensagem.style.color = "red";
+        return;
+    }
+
     const dados = dadosDosSetores[setorSelecionado];
 
     // Verificando se o login é válido
