@@ -7,6 +7,7 @@
   gap: 40px;
   padding: 40px;
   height: 860px;
+  border-radius: 10px;
 }
 
 .item {
@@ -19,4 +20,13 @@
 
 .texto{
   background-color: gray;
+}
+
+.SetorC{
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
