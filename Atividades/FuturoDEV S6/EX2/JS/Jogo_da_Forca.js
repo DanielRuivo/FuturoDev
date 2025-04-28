@@ -1,36 +1,13 @@
 // Lista de palavras para o jogo
 const words = [
-      // Animais (20 palavras)
-  "GATO", "CACHORRO", "PEIXE", "PASSARO", "VACA", 
-  "GALINHA", "CAVALO", "RATO", "COELHO", "MACACO",
-  "ELEFANTE", "LEAO", "TIGRE", "GIRAFA", "ZEBRA",
-  "CAMELO", "TARTARUGA", "CORUJA", "SAPO", "BORBOLETA",
-
-  // Comidas (20 palavras)
-  "ARROZ", "FEIJAO", "BIFE", "SALADA", "SOPA",
-  "PIZZA", "HAMBURGUER", "SANDUICHE", "BOLO", "SORVETE",
-  "QUEIJO", "PÃO", "OVO", "FRANGO", "PEIXE",
-  "MACARRAO", "PIPOCA", "CHOCOLATE", "BISCOITO", "MELANCIA",
-
-  // Objetos (20 palavras)
-  "MESA", "CADEIRA", "SOFA", "TELEVISAO", "COMPUTADOR",
-  "CELULAR", "RELOGIO", "LAMPADA", "VENTILADOR", "GARRAFA",
-  "COPO", "PRATO", "TALHER", "GUARDA_CHUVA", "MOCHILA",
-  "CADERNO", "CANETA", "LIVRO", "JANELA", "PORTA",
-
-  // Natureza (15 palavras)
-  "ARVORE", "FLOR", "SOL", "LUA", "ESTRELA",
-  "RIO", "MAR", "PRAIA", "MONTANHA", "DESERTO",
-  "CHUVA", "VENTO", "NUVEM", "TERRA", "PLANETA",
-
-  // Profissões (15 palavras)
-  "MEDICO", "PROFESSOR", "ENGENHEIRO", "MUSICO", "ARTISTA",
-  "BOMBEIRO", "POLICIAL", "JARDINEIRO", "COZINHEIRO", "MECANICO",
-  "PINTOR", "CARPINTEIRO", "FAXINEIRO", "SEGURANCA", "ATLETA",
-
-  // Esportes (10 palavras)
-  "FUTEBOL", "BASQUETE", "VOLEI", "NATACAO", "CICLISMO",
-  "CORRIDA", "TENIS", "GINASTICA", "BOXEO", "SURFE"
+    "ELEFANTE", "GIRAFA", "LEOPARDO", "RINOCERONTE", "HIPOPOTAMO",
+    "TARTARUGA", "CROCODILO", "GALINHA", "PAPAGAIO", "AVESTRUZ",
+    "CAMALEÃO", "SAGUI", "GORILA", "ORANGOTANGO", "CHIMPANZE",
+    
+    // Frutas
+    "BANANA", "MACA", "LARANJA", "MORANGO", "ABACAXI",
+    "MELANCIA", "UVA", "PESSEGO", "KIWI", "MANGA",
+    "GOIABA", "CEREJA", "FRAMBOESA", "AMEIXA", "FIGO",
 ];
 
 // Variáveis do jogo
