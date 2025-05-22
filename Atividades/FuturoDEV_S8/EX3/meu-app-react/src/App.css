@@ -1,49 +1,40 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* 
+ * Estilos para o componente App
+ * Define o layout principal e estilos específicos do componente
+ */
+
+.app-header {
+  margin-bottom: var(--spacing-xl);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Estilos para o layout de seções */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+section {
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  main {
+    gap: var(--spacing-lg);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  section {
+    margin-bottom: var(--spacing-lg);
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.app {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
+@media (max-width: 480px) {
+  main {
+    gap: var(--spacing-md);
+  }
+  
+  section {
+    margin-bottom: var(--spacing-md);
+  }
 }
