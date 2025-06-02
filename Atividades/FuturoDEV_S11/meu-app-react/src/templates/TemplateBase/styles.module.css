@@ -1,0 +1,21 @@
+.templateBase {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o template ocupe toda a altura da viewport */
+}
+
+.mainContent {
+  flex-grow: 1; /* Faz o conteúdo principal crescer para ocupar o espaço disponível */
+  padding: 1rem; /* Adiciona um espaçamento interno ao conteúdo principal */
+  width: 100%;
+  max-width: 1200px; /* Limita a largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  box-sizing: border-box;
+}
+
+/* Ajustes para garantir que o padding não cause problemas em telas menores */
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 1rem 0.5rem; /* Reduz o padding lateral em telas menores */
+  }
+}

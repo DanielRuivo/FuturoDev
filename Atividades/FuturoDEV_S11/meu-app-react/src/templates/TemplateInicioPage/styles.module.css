@@ -1,0 +1,35 @@
+.inicioContent {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.cinemaImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-theme .cinemaImage {
+ box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.inicioContent h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+body.dark-theme .inicioContent h2 {
+  color: var(--text-dark);
+}
+
+.inicioContent p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+body.dark-theme .inicioContent p {
+  color: #bbb;
+}

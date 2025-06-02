@@ -1,0 +1,31 @@
+# Lista de Tarefas - Projeto TicketOnline
+
+- [x] Criar projeto TicketOnline com Vite e TypeScript
+- [x] Estruturar pastas do projeto (Atomic Design)
+- [x] Instalar dependências (React Router, React Hook Form)
+- [x] Criar Menu de Navegação (Navbar)
+- [x] Configurar Rotas (React Router)
+-- [x] Implementar Tema Claro/Escuro (Context API)
+- [x] Criar componente Atom: Ícone (para tema)componente Atom: Ícone (para tema- [x] Criar componente Atom: Input (para formulário)
+- [x] Criar componente Atom: Textarea (para formulário)
+- [x] Criar componente Atom: Checkbox (para formulário)
+- [x] Criar componente Organismo: Formulário de Contato
+- [x] Criar Hook para Formulário de Contato [ ] Criar componente Organismo: Formulário de Contato
+- [ ] Criar compone- [x] Criar componente Organismo: Header (com Navbar e Tema)
+- [x] Criar componente Organismo: Footer
+- [x] Criar Contexto para Tema
+- [x] Criar Template: Template Base (com Header/Footer)
+- [x] Criar Template: TemplateInicioPage
+- [x] Criar Template: TemplateFilmesPage
+- [x] Criar Template: TemplateDetFilmesPage
+- [x] Criar Template: TemplateContatoPage
+- [x] Criar Página: InicioPage
+- [x] Criar Página: FilmesPage (com mock de dados)
+- [x] Criar Página: DetalhesFilmePage
+- [x] Criar Página: ContatoPage
+- [x] Aplicar Header e Footer no App.tsxeader e Footer no App.tsx
+- [x] Validar formulário de contato
+- [x] Validar navegação e rotas
+- [x] Validar troca de tema
+- [x] Testes finais e ajustes
+- [x] Entregar projeto

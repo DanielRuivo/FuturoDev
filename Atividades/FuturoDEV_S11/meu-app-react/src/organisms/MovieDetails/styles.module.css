@@ -1,0 +1,138 @@
+.detailsContainer {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: var(--background-light); /* Adapta ao tema */
+  color: var(--text-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative; /* Para posicionar o botão de voltar */
+}
+
+/* Estilos para tema escuro */
+body.dark-theme .detailsContainer {
+  background-color: #2c2c2c; /* Um cinza escuro diferente do fundo */
+  color: var(--text-dark);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.08);
+}
+
+.backButton {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--button-bg-light);
+  color: var(--button-text-light);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: var(--link-hover-light);
+}
+
+body.dark-theme .backButton {
+  background-color: var(--button-bg-dark);
+  color: var(--button-text-dark);
+}
+
+body.dark-theme .backButton:hover {
+  background-color: var(--link-hover-dark);
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem; /* Espaço para o botão de voltar */
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0; /* Impede que a imagem encolha */
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.info p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.synopsisTitle {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3rem;
+}
+
+body.dark-theme .synopsisTitle {
+  border-bottom-color: #444;
+}
+
+.synopsisText {
+  text-align: justify;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem; /* Mais espaço para o botão */
+  }
+
+  .poster {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .synopsisText {
+    text-align: left; /* Manter justificado ou alinhar à esquerda */
+  }
+}
+
+@media (max-width: 480px) {
+  .detailsContainer {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .backButton {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .content {
+    margin-top: 3.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
