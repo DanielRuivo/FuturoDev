@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 24px 0;
+}
+
+.contentPaper {
+  padding: 24px;
+}
+
+.footer {
+  margin-top: auto;
+}
