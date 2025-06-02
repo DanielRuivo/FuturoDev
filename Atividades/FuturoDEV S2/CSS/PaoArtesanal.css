@@ -1,0 +1,49 @@
+*{
+    font-style: italic;
+    color: white;
+}
+
+.container{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.pao{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 2fr 3fr;
+    gap: 5px;
+    height: 50vh;
+
+}
+
+.Titulo{
+    background-color: rgb(173, 173, 173);
+    padding: 30px;
+    text-align: center;
+}
+
+ .Divulgacao{
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+ }
+
+ .TituloImagem{
+    background-color: rgb(173, 173, 173);
+    padding: 30px;
+    text-align: center;
+}
+
+ .Imagens{
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+ }
+
+.link{
+    background-color: rgb(173, 173, 173);
+    padding: 10px;
+    text-align: center;
+}

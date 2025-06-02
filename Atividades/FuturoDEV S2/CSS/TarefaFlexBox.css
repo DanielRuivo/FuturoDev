@@ -1,0 +1,39 @@
+*{
+    font-style:italic;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    height: 50vh;
+
+}
+
+.Ingredientes{
+    background-color: gray;
+    padding: 30px;
+
+
+}
+
+.ModoDePreparo{
+    background-color: rgb(182, 182, 182);
+    padding: 50px;
+
+}
+
+.Footer{
+    grid-column: 1 / -1;
+    background-color: #333;
+    color: white;
+
+    text-align: center;
+
+
+}
+
+.color{
+    color: white;
+}
