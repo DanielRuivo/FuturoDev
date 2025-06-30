@@ -67,7 +67,7 @@ do {
 
 Já está estrutura ela vai executar o bloco de repetição antes da verificação, assim podendo colocar uma mensgem
 para executar um única vez, ou para exibir um mensagem de boas-vindas, entre outras funções.
-Explos:
+Explo 1:
 
 let contador = 1;
 
@@ -78,7 +78,7 @@ while (contador <= 5) {
     contador++;
 }
 
-//__________________________//
+//_____________ Exemplo 2: _____________//
 
 contador = 1;
 
@@ -88,3 +88,20 @@ do {
     console.log(contador);
     contador++;
 }while (contador <= 5);
+
+Entraremos agora no conteúdo de Arrow Functions.
+
+As arrow funtions são sintaxes para escrever funções de códigos de uma forma mais resumida com o intuitode 
+facilitar e economizar tempo dos programadores em JavaScript.
+
+Estrutura do Arrow Function:
+
+function soma(a, b){
+    return a+b;
+}
+
+const soma = (a, b) => a + b;
+
+Desta maneira podemos ver que sua estrutura serve para economizar lihas de código e também armazenar códigos 
+para um uso futuro, para melhor ficar o projeto futuro alem é claro de facilitar a programação.
+
