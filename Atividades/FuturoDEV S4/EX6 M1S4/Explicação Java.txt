@@ -1,0 +1,90 @@
+Estruturas de repetições:
+
+No java estruturas de repetições ou loops são usados para executar uma grande sequencia
+de códigos, que temos que repetir diversas vezes assim essas estruturas ajudam para 
+economizar tempo nos projetos, repetindo uma ação repetidas vezes até a condição esteja verdadeira.
+Essas são as estruturas que veremos a seguir:
+
+Estrutura do For:
+
+for(inicialização; condição; incremento){
+    Se as condições acima forem verdadeiras execute o bloco de comando repetidas vezes 
+    até a condição ser atendida
+}
+
+Essa estrutura é usada para quando voçê sabe exatamente o número de vezes que deseja repetir
+a estrutura até chegar no objetivo, esta estrutura pode ser usada por exemplo para criar uma tabuada 
+de um número que desejar a imprimir tudo na tela.
+Exemplo: 
+
+let numero = prompt("Digite o número para ver sua tabuada: ");
+
+consol.log(`Tabuada do ${numero}:`);
+for (let i = 1; i <=10; i++){
+    console.log(`${numero} X ${i} = ${numero*i}`);
+}
+
+Esse código permite que quando o usuário digitar um numero possamos ver a sua tabuada, assim repetindo
+10 vezes como colocamos no campo de condições assim chegando somente até a tabuada do dez.
+
+Estrutura do For/Else:
+
+for(inicialização; condição; incremento){
+    Se as condições acima forem verdadeiras execute o bloco de comando repetidas vezes 
+    até a condição ser atendida.
+}else {
+    Senão execute este bloco de comandos até a condição estar verdadeira/Mostrar uma mmensagem de erro.
+}
+
+Essa estrutura é usada para caso o bloco do "for" não for executado que execute o proximo "else"
+até a condição ficar verdadeira, assim podemos controlar a quantidade de vezes que queremos repetir
+podendo então modifica-las como desejarmos até que chegue no resultado esperado ou podemos fazer com que 
+mostre na tela uma mensagem de erro, pois passou o numero máximo da condição.
+Exemplo:
+
+consol.log(`Tabuada do ${numero}:`);
+for (let i = 1; i <=10; i++){
+    console.log(`${numero} X ${i} = ${numero*i}`);
+}else {
+    console.log("O limite foi alcançado!");
+}
+
+Estrutura do While:
+
+while (condição) {
+    Bloco de código a ser repetido até a condição tornar verdadeira
+}
+
+Esta estrutura de repetição do while e usada para executar o comando enquanto a condição for verdadeira.
+Assim a condição é verificada antes das interações do sistema podendo deste jeito podemos manusear 
+com certeza de estar certa a linha de código.
+
+Estrutura do Do/While:
+
+do {
+    Bloco de código a ser repetido até a condição tornar verdadeira
+} while (condição);
+
+Já está estrutura ela vai executar o bloco de repetição antes da verificação, assim podendo colocar uma mensgem
+para executar um única vez, ou para exibir um mensagem de boas-vindas, entre outras funções.
+Explos:
+
+let contador = 1;
+
+console.log("Contagem com whhile:");
+
+while (contador <= 5) {
+    console.log(contador);
+    contador++;
+}
+
+//__________________________//
+
+contador = 1;
+
+console.log("Contagem com do/while");
+
+do {
+    console.log(contador);
+    contador++;
+}while (contador <= 5);
