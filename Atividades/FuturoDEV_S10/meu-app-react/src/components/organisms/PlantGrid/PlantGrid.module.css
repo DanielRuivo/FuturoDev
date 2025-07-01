@@ -1,0 +1,34 @@
+.container {
+  padding: 24px 16px;
+}
+
+.grid {
+  margin-top: 16px;
+}
+
+.gridItem {
+  display: flex;
+  height: 100%;
+}
+
+.gridItem > * {
+  width: 100%;
+}
+
+/* Responsividade adicional */
+@media (max-width: 600px) {
+  .container {
+    padding: 16px 8px;
+  }
+  
+  .grid {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 32px 24px;
+  }
+}
+

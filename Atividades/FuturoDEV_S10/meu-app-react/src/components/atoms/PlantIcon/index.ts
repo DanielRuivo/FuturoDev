@@ -1,0 +1,2 @@
+export { PlantIcon } from './PlantIcon';
+

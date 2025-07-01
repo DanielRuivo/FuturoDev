@@ -1,0 +1,2 @@
+export { PlantCard } from './PlantCard';
+

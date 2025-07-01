@@ -1,0 +1,27 @@
+.storeHeader {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.storeTitle {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.storeSubtitle {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 600px) {
+  .storeHeader {
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  .storeTitle {
+    font-size: 1.8rem;
+  }
+}
+
